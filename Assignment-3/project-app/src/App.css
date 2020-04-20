@@ -1,0 +1,56 @@
+.App-logo {
+  height: 5rem;
+  pointer-events: none;
+}
+
+.App-menu span {
+  margin-left: 30px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.user-details {
+  position: absolute;
+  right: 20px;
+}
+
+.container {
+  margin: 20px;;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.search-form {
+  margin-bottom: 10px;
+}
+.search-form button {
+  margin-left: 10px;
+}
