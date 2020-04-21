@@ -1,0 +1,47 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-control {
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.reg {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: darkgreen;
+  cursor: pointer;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  padding: 10px;
+  justify-self: center;
+  position: absolute;
+  right: 45%;
+  top: 20%;
+}
+
+.cancel-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
